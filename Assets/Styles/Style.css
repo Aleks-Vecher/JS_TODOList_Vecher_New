@@ -1,0 +1,146 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.btn_addTask{
+    margin: 10px 30px ;
+}
+
+
+.table_container{
+    padding: 0px 30px;
+}
+
+/* Task */
+.icon_table a{
+    margin: 2px;
+
+}
+
+form .error_red{
+    border: 3px solid #ff0000;
+}
+
+.tab-content h4{
+    text-align: center;
+}
+.block_icon{
+    display: flex;
+    justify-content: space-around;
+    transition: all .5s linear;
+}
+
+.block_icon i:hover{
+    cursor: pointer;
+    color: royalblue;
+
+}
+
+.edit{
+    font-weight: 700;
+}
+
+.edit_notUrgent__yellow{
+    background-color:  #f6ff00;
+}
+
+.edit_urgent__red{
+    background-color: red;
+}
+
+.color_icon{
+    color: #ff0000;
+    transform: scale(1.2);
+}
+
+.color_icon:after{
+    content:"save";
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid  #f5f5f5;
+
+    top: 110%;
+    right: 5px;
+    position: absolute;
+}
+
+
+.col_number{
+    width: 5%;
+}
+
+.col_name{
+    width: 30%;
+}
+
+.col_tools{
+    width: 10%;
+}
+
+table{
+    table-layout: fixed
+}
+
+.color_position{
+    display: inline-block;
+}
+.color_priority{
+    display: flex;
+    justify-content: left;
+}
+
+.color_priority p{
+    margin: 0px 20px 0px;
+}
+
+.squere_red{
+    width: 50px;
+    height: 15px;
+    background-color: #ff0000;
+}
+.squere_yellow{
+    width: 50px;
+    height: 15px;
+    background-color: #f6ff00;
+}
+
+.squere_white{
+    width: 50px;
+    height: 15px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+br {
+    content: " ";
+    display: none;
+}
+
+
+
+.tdInput__red{
+    border: none;
+  background-color: #ff0000;
+  color: black;
+  width: 100%;
+}
+
+.tdEditInput__yellow{
+    color: black;
+    border: none;
+    background-color: #f6ff00;
+    width: 100%;
+}
+
+.tdInput__white{
+    border: none;
+    width: 100%;
+
+}
